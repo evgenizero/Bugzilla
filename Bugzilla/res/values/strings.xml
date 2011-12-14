@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Bugzilla</string>
+	<string name="dashboard_action">Action</string>
+	<string name="dashboard_action_mybugs">My bugs</string>
+	<string name="dashboard_action_search">Search</string>
+	<string name="dashboard_action_post">Post bug</string>
+	<string name="dashboard_action_accounts">Accounts</string>
+	<string name="description_logo">Google I/O 2010</string>
+	<string name="description_home">Home</string>
+	<string name="description_search">Search</string>
+	<string name="description_map">Map</string>
+	<string name="description_refresh">Refresh</string>
+	<string name="description_share">Share</string>
+	<string name="description_export">Export</string>
+	<string name="description_star">Star</string>
+	<string name="titlebar_logo">Bugzilla</string>
+	<string name="now_playing_loading">Looking up nearby sessions\u2026</string>
+	<string name="login_dialog">Sign in</string>
+	<string name="description_account">Account</string>
+</resources>

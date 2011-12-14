@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/action_bar" style="@style/TitleBar"
+	android:baselineAligned="true">
+	<ImageView style="@style/TitleBarLogo"
+		android:layout_marginLeft="8dp" />
+	<View style="@style/TitleBarSpring" />
+
+	<ImageView style="@style/TitleBarSeparator" />
+	<ImageButton style="@style/TitleBarAction" android:id="@+id/actionbar_account_button"
+		android:contentDescription="@string/description_account" android:src="@drawable/ic_title_export_light"
+		android:onClick="onActionBarAccountClick" />
+
+	<ImageView style="@style/TitleBarSeparator" />
+	<ImageButton style="@style/TitleBarAction" android:id="@+id/actionbar_search_button"
+		android:contentDescription="@string/description_search" android:src="@drawable/ic_title_search_light" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:orientation="vertical">
+
+	<RelativeLayout android:id="@+id/relative1" style="@style/TitleBar"
+		android:baselineAligned="true">
+
+		<ImageView style="@style/TitleBarLogo"
+			android:layout_marginLeft="8dp" />
+			
+		<TextView android:id="@+id/numberOfAccounts" android:textColor="@android:color/white"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="0" android:layout_alignBaseline="@+id/textView1"
+			android:layout_alignBottom="@+id/textView1" android:layout_toLeftOf="@+id/textView1"
+			android:layout_marginRight="7dp"></TextView>	
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:textColor="@android:color/white"
+			android:layout_height="wrap_content" android:text="accounts"
+			android:layout_centerVertical="true" android:layout_alignParentRight="true"
+			android:layout_marginRight="15dp"></TextView>
+	</RelativeLayout>
+
+	<RelativeLayout android:id="@+id/relative2"
+		android:layout_alignParentBottom="true" style="@style/TitleBar"
+		android:baselineAligned="true">
+		<Button android:layout_width="wrap_content" android:onClick="onAddAccountButton"
+	android:layout_height="wrap_content" android:id="@+id/button1"
+	android:text="Add account" android:layout_centerHorizontal="true" android:layout_marginTop="2dp"></Button>
+	</RelativeLayout>
+	<ListView android:layout_width="match_parent" android:background="@drawable/backline"
+		android:layout_above="@+id/relative2" android:layout_below="@+id/relative1"
+		android:layout_height="wrap_content" android:id="@+id/accounts_list"></ListView>
+
+</RelativeLayout>
+
